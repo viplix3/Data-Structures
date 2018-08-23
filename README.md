@@ -1,5 +1,5 @@
 # Data Structures in C
-## This repository contains various data structure implementation and some common functions used on them implemented in C lamguage. 
+### This repository contains various data structure implementation and some common functions used on them. 
 
 ### Data Structures covered so far
 - Linked Lists
