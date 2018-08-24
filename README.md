@@ -4,3 +4,4 @@
 ### Data Structures covered so far
 - Linked Lists
   - Singly Linked List
+  - Circular Linked List

@@ -22,6 +22,8 @@
 
 - Counter clockwise rotation of the linked list
 
+- Merging two sorted linked lists
+
 - Adding the numbers stored in two linked lists
 
 
