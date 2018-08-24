@@ -212,7 +212,10 @@ void sorted_insertion(struct Node **last, int data)
 		return;
 	}
 
-	struct Node *current = *last, *prev = *last;
+	struct Node *new_node = create_node(data);
+
+
+	struct Node *current = (*last)->next, *prev = *last;
 
 	do
 	{
@@ -222,14 +225,18 @@ void sorted_insertion(struct Node **last, int data)
 		prev = current;
 		current = current->next;
 	}
-	while(current != *last);
+	while(current != (*last));
 
-	struct Node *new_node = create_node(data);
+	if(new_node->data >= (*last)->data)
+	{
+		new_node->next = (*last)->next;
+		(*last)->next = new_node;
+		*last = new_node;
+		return;
+	}
+
 	new_node->next = current;
 	prev->next = new_node;
-
-	if(current == *last)
-		*last = new_node;
 
 } 
 
