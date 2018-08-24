@@ -89,7 +89,7 @@ void print_list(struct Node *last)
 	{
 		if(c==0)
 		{
-			printf("%d",temp->data);
+			printf("Last-Element->%d",temp->data);
 			c++;
 		}
 
@@ -99,7 +99,7 @@ void print_list(struct Node *last)
 		temp = temp->next;
 	}
 	while(temp != last->next);
-	printf("->1st Element");
+	printf("->First-Element");
 	printf("\n\n");
 }
 
