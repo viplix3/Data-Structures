@@ -39,8 +39,26 @@
 
 - Deletion
   - Deletion of any provided element
-  - Deletion of element from the provided position
 
 - Element Count
+
+- Splitting the circular linked list in two
+
+
+
+### Doubly Linked List
+
+- Insertion
+  - Insertion at the head of linked list
+  - Insertion at the tail of linked list
+  - Insertion at any specified position
+  - Insertion of multiple elements into the linked list in one go
+
+- Deletion
+  - Deletion of any provided element
+
+- Element Count
+
+- Reverse the Doubly Linked List
 
 - Splitting the circular linked list in two
