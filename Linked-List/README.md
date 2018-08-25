@@ -60,5 +60,3 @@
 - Element Count
 
 - Reverse the Doubly Linked List
-
-- Splitting the circular linked list in two
